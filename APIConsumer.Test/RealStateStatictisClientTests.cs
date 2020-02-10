@@ -1,9 +1,11 @@
 using System.Net.Http;
 using System.Threading;
+using APIConsumer.Exceptions;
+using APIConsumer.Handlers;
+using APIConsumer.Services;
 using Moq;
 using NUnit.Framework;
 using Polly;
-
 namespace APIConsumer.Test
 {
     public class RealStateStatisticsClientTests
@@ -22,6 +24,11 @@ namespace APIConsumer.Test
             _mockPolicyService.SetupAllProperties();
             _mockPolicyService.Object.BulkheadPolicy = Policy.NoOpAsync<HttpResponseMessage>();
             _mockPolicyService.Object.HttpRetryPolicy = Policy.NoOpAsync<HttpResponseMessage>();
+            _mockPolicyService.Object.TimeOutPolicy = Policy.NoOpAsync<HttpResponseMessage>();
+            _mockPolicyService.Object.FallBackPolicy = Policy.NoOpAsync<HttpResponseMessage>();
+            _mockPolicyService.Setup(x => x.PolicyWrap).Returns
+            (Policy.WrapAsync(_mockPolicyService.Object.FallBackPolicy, _mockPolicyService.Object.HttpRetryPolicy,
+                _mockPolicyService.Object.TimeOutPolicy, _mockPolicyService.Object.BulkheadPolicy));
         }
 
         [Test]

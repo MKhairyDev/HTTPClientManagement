@@ -4,6 +4,8 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
+using APIConsumer.Exceptions;
+using APIConsumer.Services;
 using RealState.Models;
 using Polly;
 using Polly.Retry;
@@ -39,7 +41,7 @@ namespace APIConsumer
             which could be used for another work and this does improve the scalability of our application.
             "ResponseHeadersRead" is used blow instead the default option to be able to start the operation as soon as possible.
              */
-            using (var response = await _policyService.BulkheadPolicy.ExecuteAsync(() =>
+            using (var response = await _policyService.PolicyWrap.ExecuteAsync(() =>
                 _client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cancellationToken)))
             {
                 /*When doing http request the response will be as a stream in a wire which could be read from the content as a string(ReadAsStringAsync)

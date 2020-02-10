@@ -5,35 +5,33 @@
 }
 
 <h2>AgentStatistics</h2>
-<div>
-    @Html.ActionLink("List top ten without garden", "TopAgents", new { isGardenChecked = false });
 
-@Html.ActionLink("List top ten with garden", "TopAgents", new { isGardenChecked = true });
-</div>
-    <table class="table">
-        <thead>
+@Html.ActionLink("List top ten without garden", "TopAgents", new { isGardenChecked = false });
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MakelaarId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ObjectsNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.MakelaarId)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.ObjectsNumber)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.MakelaarId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ObjectsNumber)
-                    </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MakelaarId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ObjectsNumber)
+                </td>
 
-                </tr>
-            }
-        </tbody>
-    </table>
+            </tr>
+        }
+    </tbody>
+</table>

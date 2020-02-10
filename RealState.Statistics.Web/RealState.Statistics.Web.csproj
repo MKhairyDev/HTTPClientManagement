@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\AgentStatistics\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

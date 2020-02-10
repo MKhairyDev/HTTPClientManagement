@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace APIConsumer
+namespace APIConsumer.Exceptions
 {
     [Serializable]
     public class ResourceNotFoundException : Exception

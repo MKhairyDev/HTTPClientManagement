@@ -1,12 +1,12 @@
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\APIConsumer.deps.json
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\APIConsumer.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\APIConsumer.pdb
+C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.pdb
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csprojAssemblyReference.cache
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csproj.CoreCompileInputs.cache
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.AssemblyInfoInputs.cache
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.AssemblyInfo.cs
-C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\APIConsumer.pdb
-C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.dll
-C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.pdb
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csproj.CopyComplete
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.dll
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.pdb

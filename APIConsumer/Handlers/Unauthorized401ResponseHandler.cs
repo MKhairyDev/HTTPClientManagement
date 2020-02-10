@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace APIConsumer
+namespace APIConsumer.Handlers
 {
     public class Unauthorized401ResponseHandler : HttpMessageHandler
     {
