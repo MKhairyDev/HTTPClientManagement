@@ -5,7 +5,6 @@ using RealState.ReadStack;
 
 namespace RealState.Statistics.Web.Controllers
 {
-    //[Route("AgentStatistics")]
     [Controller]
     public class AgentStatisticsController : Controller
     {
