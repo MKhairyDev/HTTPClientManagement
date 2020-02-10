@@ -1,0 +1,14 @@
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\RealState.ReadStack.deps.json
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\RealState.ReadStack.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\RealState.ReadStack.pdb
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\RealState.Models.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\RealState.Models.pdb
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.csprojAssemblyReference.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.csproj.CoreCompileInputs.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.AssemblyInfoInputs.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.AssemblyInfo.cs
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.csproj.CopyComplete
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\obj\Debug\netstandard2.0\RealState.ReadStack.pdb
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\APIConsumer.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.ReadStack\bin\Debug\netstandard2.0\APIConsumer.pdb
