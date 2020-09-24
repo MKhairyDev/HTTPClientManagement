@@ -4,7 +4,6 @@ C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstanda
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.dll
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\bin\Debug\netstandard2.0\RealState.Models.pdb
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csprojAssemblyReference.cache
-C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csproj.CoreCompileInputs.cache
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.AssemblyInfoInputs.cache
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.AssemblyInfo.cs
 C:\Users\moemen.saad\source\repos\TestHttpClient\APIConsumer\obj\Debug\netstandard2.0\APIConsumer.csproj.CopyComplete
