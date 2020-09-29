@@ -12,6 +12,7 @@ namespace RealState.Statistics.Web.Controllers
 
         public AgentStatisticsController(IAgentStatisticsQueries agentStatisticsQueries)
         {
+            throw new ArgumentNullException(nameof(agentStatisticsQueries));
             _agentStatisticsQueries =
                 agentStatisticsQueries ?? throw new ArgumentNullException(nameof(agentStatisticsQueries));
         }
