@@ -20,8 +20,6 @@ namespace RealState.Statistics.Web.Controllers
         [HttpGet("{isGardenChecked?}")]
         public async Task<IActionResult> TopAgents(bool isGardenChecked = true)
         {
-            if(!isGardenChecked)
-                throw new ArgumentNullException("test azure alert");
             var topAgentsByObjects = await _agentStatisticsQueries.GetTopAgentsByObjects(isGardenChecked);
             return PartialView("TopAgents", topAgentsByObjects);
         }
