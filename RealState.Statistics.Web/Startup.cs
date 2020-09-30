@@ -52,6 +52,7 @@ namespace RealState.Statistics.Web
              For re-usability aspect this service has been created to be able to reuse our policy among different areas
              */
             services.AddSingleton<IPolicyService,PolicyService>();
+            services.AddApplicationInsightsTelemetry();
         }
 
 
