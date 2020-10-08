@@ -1,0 +1,7 @@
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\bin\release\netstandard2.0\RealState.Models.deps.json
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\bin\release\netstandard2.0\RealState.Models.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\bin\release\netstandard2.0\RealState.Models.pdb
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\obj\release\netstandard2.0\RealState.Models.AssemblyInfoInputs.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\obj\release\netstandard2.0\RealState.Models.AssemblyInfo.cs
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\obj\release\netstandard2.0\RealState.Models.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Models\obj\release\netstandard2.0\RealState.Models.pdb

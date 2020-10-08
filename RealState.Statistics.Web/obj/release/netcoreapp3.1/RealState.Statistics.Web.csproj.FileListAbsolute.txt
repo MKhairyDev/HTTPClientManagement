@@ -1,0 +1,8 @@
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.csprojAssemblyReference.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.AssemblyInfoInputs.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.AssemblyInfo.cs
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.TagHelpers.input.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.TagHelpers.output.cache
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.dll
+C:\Users\moemen.saad\source\repos\TestHttpClient\RealState.Statistics.Web\obj\Release\netcoreapp3.1\RealState.Statistics.Web.pdb

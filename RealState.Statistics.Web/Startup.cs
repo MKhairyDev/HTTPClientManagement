@@ -1,10 +1,13 @@
 ﻿using APIConsumer;
 using APIConsumer.Services;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RealState.ReadStack;
+using System;
 
 namespace RealState.Statistics.Web
 {
@@ -57,11 +60,16 @@ namespace RealState.Statistics.Web
             /*
              For re-usability aspect this service has been created to be able to reuse our policy among different areas
              */
-            services.AddSingleton<IPolicyService,PolicyService>();
+            services.AddSingleton<IPolicyService, PolicyService>();
             services.AddApplicationInsightsTelemetry();
-          
+            var client = new SecretClient(vaultUri: new Uri("https://keyvault204demooo.vault.azure.net/"), credential: new DefaultAzureCredential(true));
+            var redisConnectionString = client.GetSecret("redisConnStr").Value?.Value;
             services.AddDistributedRedisCache(options =>
-                options.Configuration=Configuration.GetConnectionString("RedisConnection")); ;
+            {
+                options.Configuration = redisConnectionString;
+                options.InstanceName= "204redisv2";
+            });
+
             
         }
 
